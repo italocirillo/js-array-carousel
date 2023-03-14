@@ -17,6 +17,34 @@ img{
     width: 100%;
     height: 100%;
     display: flex;
+    align-items: center;
+}
+.slider{
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+/* Bottoni */
+button{
+    background-color: #d1cad4;
+    border-style: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    font-size: 1em;
+    margin: 1em 0em;
+    cursor: pointer;
+}
+.precedente, .successiva{
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+}
+.precedente{
+    top: 0;
+}
+.successiva{
+    bottom: 0;
 }
