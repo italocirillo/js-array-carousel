@@ -13,7 +13,7 @@ for(let i=0;i<arrayNomeImmagini.length;i++){
 const arrayImmagini = document.getElementsByClassName("elemento-immagine");
 console.log(arrayImmagini);
 // Inizializzo la prima immagine
-let indiceAttuale=1;
+let indiceAttuale=0;
 arrayImmagini[indiceAttuale].classList.add("active");
 
 // Gestione bottoni
@@ -41,7 +41,7 @@ bottoneSuccessivo.addEventListener("click", function(){
 
     // Controllo bottoni
     bottoneSuccessivo.classList.remove("display-none");
-    if(indiceAttuale === 1){
+    if(indiceAttuale === 0){
         bottonePrecedente.classList.add("display-none");
      }
  });
