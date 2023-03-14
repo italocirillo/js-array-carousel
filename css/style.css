@@ -48,3 +48,13 @@ button{
 .successiva{
     bottom: 0;
 }
+/* Immagini */
+.elemento-immagine{
+    display: none;
+}
+.active{
+    display: block;
+}
+.display-none{
+    display: none;
+}
